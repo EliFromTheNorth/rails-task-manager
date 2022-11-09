@@ -11,6 +11,6 @@ Rails.application.routes.draw do
   post "tasks", to: "tasks#create"
   get "tasks/:id/edit", to: "tasks#edit", as: :edit
   patch "tasks/:id", to: "tasks#update"
-  delete "tasks/:id", to: "task#destroy"
+  delete "tasks/:id", to: "tasks#destroy"
 # resources :tasks
 end
